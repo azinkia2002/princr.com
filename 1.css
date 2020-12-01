@@ -1,0 +1,131 @@
+body,h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Work Sans', sans-serif;
+}
+.nav-img {
+    font-size: 24px;
+    font-weight: 600;
+}
+.nav-img img {
+    width: 41px;
+    height: 44px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #6278df;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #6278df;
+    background-color: #f8f9fa;
+}
+.buy-btn {
+    color: #6278df;
+    border: 2px solid #6278df;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.buy-btn:hover{
+    background: #6278df;
+    color: white;
+    border-color: #6278df;
+}
+/* slider-section */
+.slider-section{
+    background:url(image/mbr-10.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 120px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.slider-form {
+    width: 300px;
+    margin-left: auto;
+}
+.slider-btn {
+    background: #5ba533;
+    border: 2px solid #5ba533;
+    padding: 5px 50px;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+.slider-btn:hover{
+    background: white;
+    color: #6278df;
+    border: 2px solid #6278df;
+    border-radius: 5px;
+}
+.slider-form {
+    width: 300px;
+    margin-left: auto;
+    padding: 12px 21px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.slider-caption p {
+    font-size: 22px;
+    color: white;
+}
+.slider-caption h2 {
+    font-size: 45px;
+    color: white;
+    padding-bottom: 37px;
+}
+/* position-section */
+.position-section{
+    background: white;
+    padding: 70px 0;
+}
+.position-title h1 {
+    font-size: 50px;
+}
+.position-title p {
+    font-size: 19px;
+    color: grey;
+}
+/* activity-section */
+.activity-section{
+    background: #f7f9ff;
+    padding: 70px 0;
+}
+img{
+    max-width: 100%;
+}
+.activity-caption h2 {
+    font-size: 35px;
+}
+.activity-caption p {
+    font-size: 20px;
+    line-height: 28px;
+    padding-top: 15px;
+}
+.activity-caption {
+    padding-top: 65px;
+}
+/* feature-section  */
+.feature-section {
+    background: white;
+    padding: 70px 0;
+}
+
+.f-image{
+    width: 40%;
+}
+.f-image img{
+    height: 100%;
+}
+.f-description{
+    width: 60%;
+}
